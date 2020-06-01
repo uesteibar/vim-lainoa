@@ -25,6 +25,7 @@ syntax keyword lainoaBoolean
 
 syntax match lainoaNumber "\v<\d+>"
 syntax region lainoaString start=/"/ skip=/\\"/ end=/"/ oneline
+syn region lainoaComment start="#" end="\n"
 
 highlight default link lainoaTodos Todo
 highlight default link lainoaComment Comment
