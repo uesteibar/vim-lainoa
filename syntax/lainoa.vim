@@ -6,6 +6,7 @@ syntax keyword lainoaKeywords
       \ else
       \ return
       \ fun
+      \ nil
 
 syntax keyword lainoaOperator
       \ +
